@@ -4,17 +4,17 @@
  */
 
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'social_media');
+define('DB_HOST', 'MySQL_Database_Host');
+define('DB_USERNAME', 'MySQL_Database_Username');
+define('DB_PASSWORD', 'MySQL_Database_Password');
+define('DB_NAME', 'MySQL_Database_Name');
 define('DB_USER_TBL', 'users');
 
 
 // Facebook API configuration
-define('FB_APP_ID', '1958560467688906');
-define('FB_APP_SECRET', '110595301a0d04a8ff14aaf6aaa01c5b');
-define('GOOGLE_REDIRECT_URL', 'http://localhost/fb/');
+define('FB_APP_ID', 'Insert_Facebook_App_ID');
+define('FB_APP_SECRET', 'Insert_Facebook_App_Secret');
+define('FB_REDIRECT_URL', 'Callback_URL');
 
 // Start session
 if(!session_id()){
